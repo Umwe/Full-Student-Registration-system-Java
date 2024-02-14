@@ -1,0 +1,96 @@
+/* Reset some default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style for the user info */
+.user-info {
+    color: #fff;
+    font-size: 16px;
+    align: right;
+}
+
+/* Style for the container */
+.container {
+    display: flex;
+}
+
+/* Style for the sidebar */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+}
+
+.sidebar .logo img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.nav-links li {
+    margin-bottom: 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style for the content container */
+.content-container {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Style for the button grid */
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Style for the boxes in the content area */
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for links inside the boxes */
+.box a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Hover effect for links */
+.box a:hover {
+    color: #007BFF; /* Change to your desired hover color */
+}

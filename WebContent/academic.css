@@ -1,0 +1,119 @@
+/* Reset some default styles */
+body, ul, li, input, select {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Remove Background image styles */
+.background-image {
+    display: none; /* Hide the background image */
+}
+
+/* Update Sidebar (Navbar) styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #ffffff; /* Dark white background color */
+    color: #333; /* Text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.logo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links a {
+    color: #333; /* Text color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #0077FF; /* Hover color */
+}
+
+.user-links a {
+    color: #333; /* Text color */
+    text-decoration: none;
+    margin: 10px 0;
+    transition: color 0.3s;
+}
+
+.user-links a:hover {
+    color: #0077FF; /* Hover color */
+}
+
+/* Content container styles */
+.content-container {
+    margin-left: 250px;
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-content {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Input, select, label, and h1 styles */
+input, select, label, h1 {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px; /* Set your preferred width */
+    font-size: 16px;
+    background-color: #f7f7f7;
+    color: #333; /* Text color in a soft gray */
+    border: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0077FF;
+}
+
+/* Style the form submit button */
+input[type="submit"] {
+    background: linear-gradient(to bottom, #FF9900, #FF6600);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #FF6600, #FF3300);
+}
